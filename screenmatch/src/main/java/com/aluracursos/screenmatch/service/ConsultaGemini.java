@@ -9,7 +9,7 @@ public class ConsultaGemini {
         String prompt = "Traduce el siguiente texto al español: " + texto;
 
         Client cliente = new Client.Builder()
-                .apiKey("AIzaSyC7XOjLoNkTbL572wPKPqpWwrBQ5dK3vTc") // Solo la clave
+                .apiKey("clave de tu api") // Solo la clave
                 .build();
 
         try {
